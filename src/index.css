@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: one;
+  /* Note: In React/Vite/Next.js, files in /public are served from the root '/' */
+  src: url('/public/6964da16696d0764e2a192a6_Obviously-NarrowBlack.ttf');
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.one{
+    font-family: one;
+}
+/* Custom Range Slider Styling for Cost Estimator */
+input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 24px;
+  height: 24px;
+  background: #000000;
+  border: 2px solid #ffd700;
+  cursor: pointer;
+}
+
+input[type='range']::-moz-range-thumb {
+  width: 24px;
+  height: 24px;
+  background: #000000;
+  border: 2px solid #ffd700;
+  cursor: pointer;
+}
+
+/* Fix for the tracking-tightest class if not in tailwind config */
+.tracking-tightest {
+  letter-spacing: -0.05em;
+}
+
+/* Ensure images/icons render correctly */
+.text-transparent {
+  -webkit-text-fill-color: transparent;
+}
+
+html.lenis {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
