@@ -7,17 +7,24 @@ import CostEstimator from '../componets/CostEstimator'
 import OngoingProjects from '../componets/Ongoing'
 import HomeSvg from '../componets/Homesvg'
 import Normal from '../componets/Normal'
+import Three from '../componets/Threee'
+import Building from '../componets/Building'
 const ProjectM = () => {
   return (
     <div>
         <ProjectHero />
         <ProjectGrid />
-        <Normal />
+        <Three />
+        {/* <Building /> */}
+        {/* <Normal /> */}
         {/* <HomeSvg /> */}
-        <ProjectStats />
+       
         <Renovation />
-        <CostEstimator />
+      
         <OngoingProjects />
+      
+           <CostEstimator />
+              <ProjectStats />
     </div>
   )
 }
