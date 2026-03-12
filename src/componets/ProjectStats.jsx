@@ -28,7 +28,7 @@ const Counter = ({ value }) => {
 
 const ProjectStats = () => {
   return (
-    <section className="bg-[#0a1128] rounded-b-3xl py-32 px-6 relative overflow-hidden text-white font-sans">
+    <section className="bg-[#0a1128] rounded-t-3xl py-32 px-6 relative overflow-hidden text-white font-sans">
       {/* Technical Background Grid */}
       <div className="absolute inset-0 opacity-10 pointer-events-none" 
            style={{ backgroundImage: 'radial-gradient(#fff 1px, transparent 1px)', backgroundSize: '40px 40px' }} />
@@ -123,5 +123,6 @@ const ProjectStats = () => {
     </section>
   );
 };
+
 
 export default ProjectStats;
