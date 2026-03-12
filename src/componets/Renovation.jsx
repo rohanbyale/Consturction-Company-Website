@@ -62,7 +62,7 @@ const BeforeAfterSlider = ({
           ref={containerRef}
           onMouseMove={handleMove}
           onTouchMove={handleMove}
-          className="relative aspect-[4/5] md:aspect-[21/9] overflow-hidden rounded-[20px] bg-gray-100 cursor-none group shadow-2xl touch-none"
+          className="relative aspect-[4/5] md:aspect-[21/9] overflow-hidden rounded-[20px] bg-gray-100 cursor-none group shadow-2xl touch-pan-y"
         >
           {/* AFTER IMAGE */}
           <motion.div 
@@ -126,5 +126,6 @@ const BeforeAfterSlider = ({
     </section>
   );
 };
+
 
 export default BeforeAfterSlider;
