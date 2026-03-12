@@ -74,7 +74,7 @@ const AboutSection = () => {
     muted
     loop
     playsInline
-    className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000 scale-110"
+    className="w-full h-full object-cover  hover:grayscale-0 transition-all duration-1000 scale-110"
   >
     <source 
       src="/about.mp4" 
@@ -495,5 +495,6 @@ const Hero = () => {
 
 
 export default Hero;
+
 
 
