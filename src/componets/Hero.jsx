@@ -436,14 +436,7 @@ const Hero = () => {
             <p style={{ fontSize: 10, letterSpacing: '0.3em', color: '#D4AF37', textTransform: 'uppercase', fontWeight: 700, margin: '0 0 10px' }}>
               [ Reel 2025 ]
             </p>
-            <h2 style={{
-              fontFamily: "'Cormorant Garamond',serif",
-              fontSize: 'clamp(24px,3.6vw,56px)',
-              fontWeight: 900, color: '#F5F2EA', lineHeight: 1.05, margin: 0,
-            }}>
-              Where Concrete<br />
-              <span style={{ fontStyle: 'italic', color: '#D4AF37' }}>Meets Vision.</span>
-            </h2>
+        
           </div>
 
           <div style={{
@@ -499,5 +492,6 @@ const Hero = () => {
     </>
   );
 };
+
 
 export default Hero;
