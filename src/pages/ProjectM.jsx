@@ -8,14 +8,14 @@ import OngoingProjects from '../componets/Ongoing'
 import HomeSvg from '../componets/Homesvg'
 import Normal from '../componets/Normal'
 import Three from '../componets/Threee'
-
+import Building from '../componets/Building'
 const ProjectM = () => {
   return (
     <div>
         <ProjectHero />
         <ProjectGrid />
         <Three />
-        
+        <Building />
         {/* <Normal /> */}
         {/* <HomeSvg /> */}
        
@@ -30,4 +30,3 @@ const ProjectM = () => {
 }
 
 export default ProjectM
-
