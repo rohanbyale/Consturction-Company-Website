@@ -16,8 +16,8 @@ const AboutSection = () => {
   const xTranslate = useTransform(timelineProgress, [0, 1], ['30%', '-80%']);
 
   const timelineEvents = [
-    { year: '2010', task: 'Foundation Laid',  desc: 'Company started in Mumbai.'               },
-    { year: '2015', task: '100 Milestones',   desc: 'Successfully hit 100 projects.'           },
+    { year: '1998', task: 'Foundation Laid',  desc: 'Company started in Mumbai.'               },
+    { year: '2010', task: '100 Milestones',   desc: 'Successfully hit 100 projects.'           },
     { year: '2020', task: 'Urban Pulse',       desc: 'Expansion to 12 major cities.'            },
     { year: '2024', task: 'Apex Era',          desc: '500+ Mega-structures completed.'          },
     { year: '2026', task: 'The Future',        desc: 'Digital Integration & Sustainability.'   },
@@ -495,6 +495,7 @@ const Hero = () => {
 
 
 export default Hero;
+
 
 
 
