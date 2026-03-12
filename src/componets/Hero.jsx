@@ -77,7 +77,7 @@ const AboutSection = () => {
     className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000 scale-110"
   >
     <source 
-      src="https://www.pexels.com/download/video/6474144/" 
+      src="/about.mp4" 
       type="video/mp4" 
     />
     Your browser does not support the video tag.
@@ -495,4 +495,5 @@ const Hero = () => {
 
 
 export default Hero;
+
 
