@@ -17,7 +17,7 @@ const RollingNumber = ({ value, suffix = "" }) => {
 const TrustBar = () => {
   const stats = [
     { label: "Years Mastery", value: 28, suffix: "+" },
-    { label: "Projects", value: 450, suffix: "" },
+    { label: "Projects", value: 500, suffix: "" },
     { label: "Partners", value: 120, suffix: "+" },
     { label: "Awards", value: 15, suffix: "!" },
   ];
@@ -89,5 +89,6 @@ const TrustBar = () => {
     </div>
   );
 };
+
 
 export default TrustBar;
