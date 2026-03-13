@@ -52,7 +52,7 @@ const CareersPage = () => {
     <div className="bg-[#F9F9F7] min-h-screen text-[#1A1A1A] font-sans selection:bg-[#D4AF37] selection:text-white overflow-x-hidden">
       
       {/* 1. BRANDED HERO SECTION */}
-      <section className="relative pt-20 md:pt-32 pb-12 md:pb-20 px-6 md:px-12 border-b border-[#1A1A1A]/5">
+      <section className="relative pt-30 md:pt-32 pb-12 md:pb-20 px-6 md:px-12 border-b border-[#1A1A1A]/5">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start md:items-end gap-6 md:gap-10">
           <div className="max-w-3xl">
             <motion.div 
@@ -172,5 +172,6 @@ const CareersPage = () => {
     </div>
   );
 };
+
 
 export default CareersPage;
