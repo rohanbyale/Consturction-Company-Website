@@ -7,7 +7,7 @@ const ModernLuxuryContact = () => {
 
 
   return (
-    <section className="relative min-h-screen bg-[#F5F5F3] text-[#1a1a1a] selection:bg-[#EEFC55] selection:text-[#1a1a1a] pt-32 pb-16 px-6 md:px-20 overflow-hidden font-sans">
+    <section className="relative min-h-screen bg-[#F5F5F3] text-[#1a1a1a] selection:bg-[#EEFC55] selection:text-[#1a1a1a] pt-40 pb-16 px-6 md:px-20 overflow-hidden font-sans">
       
       {/* 1. THE GLOBE - Blueprint Style */}
       <div className="absolute -top-10 -right-10 p-12 opacity-[0.05] hidden lg:block">
@@ -60,5 +60,6 @@ const ModernLuxuryContact = () => {
     </section>
   );
 };
+
 
 export default ModernLuxuryContact;
