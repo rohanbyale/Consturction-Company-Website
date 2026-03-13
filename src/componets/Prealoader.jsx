@@ -1,13 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-/* ═══════════════════════════════════════════════
-   CONSTRUCTION BUILDING SVG
-   Draws itself floor by floor, crane swings,
-   workers visible, scaffolding on sides
-═══════════════════════════════════════════════ */
+
 const BuildingSVG = ({ progress }) => {
-  // progress 0–100: how many floors are "built"
+
   const totalFloors = 8;
   const builtFloors = Math.floor((progress / 100) * totalFloors);
   const cx = 160, groundY = 290;
@@ -290,14 +286,7 @@ const PillarLoader = () => {
           transition={{ duration: 0.6, ease: 'easeInOut' }}
         >
           {/* Background blueprint grid */}
-          <div className="absolute inset-0 pointer-events-none"
-            style={{
-              backgroundImage: `
-                linear-gradient(rgba(238,252,85,0.04) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(238,252,85,0.04) 1px, transparent 1px)
-              `,
-              backgroundSize: '40px 40px',
-            }}/>
+          
           {/* Vignette */}
           <div className="absolute inset-0 pointer-events-none"
             style={{ background: 'radial-gradient(ellipse at center, transparent 40%, #0A1128 100%)' }}/>
@@ -438,5 +427,6 @@ const PillarLoader = () => {
     </AnimatePresence>
   );
 };
+
 
 export default PillarLoader;
