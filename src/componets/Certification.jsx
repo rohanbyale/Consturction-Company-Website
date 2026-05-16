@@ -54,12 +54,12 @@ const AchievementsRow = () => {
           </div>
         </header>
 
-        {/* --- GRID: Flush edges, no gaps --- */}
+   
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-0">
           {achievements.map((item, index) => (
             <motion.div
               key={item.id}
-              // REVEAL REMOVED: Simple fade and slide from left to right
+      
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, amount: 0.1 }}
