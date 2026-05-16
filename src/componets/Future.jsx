@@ -30,7 +30,7 @@ export default function ConstructionDivider() {
           fontFamily: "'Barlow', sans-serif",
         }}
       >
-        {/* ── GRAIN TEXTURE OVERLAY ── */}
+
         <svg
           style={{
             position: "absolute", inset: 0, width: "100%", height: "100%",
@@ -55,7 +55,6 @@ export default function ConstructionDivider() {
           }}
         />
 
-        {/* ── MAIN SVG SCENE ── */}
         <div style={{ position: "relative", lineHeight: 0 }}>
           <svg
             viewBox="0 0 1400 320"
@@ -70,7 +69,7 @@ export default function ConstructionDivider() {
                 <stop offset="100%" stopColor="#111" />
               </linearGradient>
 
-              {/* Ground gradient */}
+         
               <linearGradient id="groundGrad" x1="0" y1="0" x2="0" y2="1">
                 <stop offset="0%" stopColor="#1a1400" />
                 <stop offset="100%" stopColor="#0b0b0b" />
