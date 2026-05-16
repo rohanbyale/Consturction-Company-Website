@@ -73,7 +73,7 @@ const TrustBar = () => {
 
       </div>
 
-      {/* Subtle "Safety Stripe" Background Decoration */}
+      
       <div className="absolute top-0 right-0 h-full w-32 opacity-[0.05] pointer-events-none">
         <div className="h-full w-full rotate-45 bg-black" style={{ backgroundImage: 'repeating-linear-gradient(45deg, transparent, transparent 20px, #000 20px, #000 40px)' }}></div>
       </div>
