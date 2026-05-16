@@ -102,7 +102,7 @@ const AchievementsRow = () => {
           ))}
         </div>
 
-        {/* Minimal Footer Status */}
+    
         <div className="px-6 md:px-12 py-12 flex items-center justify-between border-t border-gray-100 mt-0">
           <div className="flex items-center gap-3 opacity-30">
             <Milestone size={16} />
