@@ -63,7 +63,6 @@ export default function ConstructionDivider() {
             aria-hidden="true"
           >
             <defs>
-              {/* Sky gradient */}
               <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
                 <stop offset="0%" stopColor="#0b0b0b" />
                 <stop offset="100%" stopColor="#111" />
@@ -75,7 +74,7 @@ export default function ConstructionDivider() {
                 <stop offset="100%" stopColor="#0b0b0b" />
               </linearGradient>
 
-              {/* Building sheen */}
+           
               <linearGradient id="buildGrad" x1="0" y1="0" x2="1" y2="0">
                 <stop offset="0%" stopColor="#1e1e1e" />
                 <stop offset="50%" stopColor="#2a2a2a" />
