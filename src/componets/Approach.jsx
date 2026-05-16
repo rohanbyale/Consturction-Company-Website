@@ -34,7 +34,7 @@ const ProjectTriage = () => {
     <section className="bg-[#F5F5F3] py-20 px-6 md:px-20 border-t border-black/5 font-sans overflow-hidden">
       <div className="max-w-[1600px] mx-auto">
         
-        {/* Header Section */}
+ 
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-16 gap-8">
           <div className="max-w-2xl">
             <span className="font-mono text-[9px]  font-black uppercase tracking-[0.5em] text-gray-400 block mb-4">
@@ -52,7 +52,7 @@ const ProjectTriage = () => {
           </div>
         </div>
 
-        {/* The Grid */}
+       
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           {categories.map((item, index) => (
             <motion.div
@@ -86,7 +86,7 @@ const ProjectTriage = () => {
                 <ArrowRight size={18} className="group-hover:translate-x-2 transition-transform" />
               </div>
 
-              {/* Decorative Signal Line for Fast-Track Card */}
+           
               {index === 1 && (
                 <div className="absolute top-0 left-0 w-full h-1 bg-[#1a1a1a] overflow-hidden">
                   <motion.div 
@@ -100,7 +100,7 @@ const ProjectTriage = () => {
           ))}
         </div>
 
-        {/* Footer Detail */}
+      
         <div className="mt-16 flex flex-col md:flex-row gap-8 items-center justify-between border-y border-black/5 py-8">
           <p className="font-mono text-[9px] uppercase tracking-[0.4em] text-gray-400">
             Your information is private and securely handled
