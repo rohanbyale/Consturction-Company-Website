@@ -42,16 +42,4 @@ This project is designed to stand out in the high-end creative market. It utiliz
 
 ---
 
-## 📂 Project Structure
 
-```text
-src/
-├─ components/
-│  ├─ Navbar.jsx        # Glassmorphism/Dynamic Navigation
-│  ├─ Hero.jsx          # High-impact introduction
-│  ├─ Portfolio.jsx     # Interactive work showcase
-│  ├─ Process.jsx       # Step-by-step service guide
-│  └─ Footer.jsx        # Modern signature and CTAs
-├─ App.jsx              # Main App Logic & Scroll Wrapper
-├─ index.css            # Custom Tailwind directives
-└─ tailwind.config.js   # Custom Brand Design Tokens
