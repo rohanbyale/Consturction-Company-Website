@@ -57,9 +57,6 @@ const ArchBlueprintBg = () => (
         stroke="rgba(217,249,157,0.12)" strokeWidth="0.8"/>
     ))}
 
-    {/* ══════════════════════════════════
-        BUILDINGS — left to right skyline
-    ══════════════════════════════════ */}
 
     {/* ── BLDG 1: Short warehouse (far left) ── */}
     <rect x="20" y="310" width="110" height="110"
