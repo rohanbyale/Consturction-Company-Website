@@ -101,7 +101,7 @@ const ArchBlueprintBg = () => (
         x={268+col*27} y={88+row*30} width="18" height="20"
         fill="rgba(217,249,157,0.04)" stroke="rgba(217,249,157,0.14)" strokeWidth="0.5"/>
     )))}
-    {/* Penthouse */}
+
     <rect x="280" y="62" width="80" height="20"
       fill="rgba(217,249,157,0.05)" stroke="rgba(217,249,157,0.28)" strokeWidth="0.9"/>
     {/* Spire */}
