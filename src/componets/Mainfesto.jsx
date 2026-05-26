@@ -83,7 +83,7 @@ const ArchBlueprintBg = () => (
         x={152+col*26} y={228+row*36} width="16" height="24"
         fill="rgba(217,249,157,0.05)" stroke="rgba(217,249,157,0.15)" strokeWidth="0.5"/>
     )))}
-    {/* Roof parapet */}
+ 
     <rect x="141" y="212" width="98" height="10"
       fill="rgba(217,249,157,0.05)" stroke="rgba(217,249,157,0.22)" strokeWidth="0.8"/>
 
