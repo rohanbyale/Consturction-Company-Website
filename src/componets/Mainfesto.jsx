@@ -1,11 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-/* ═══════════════════════════════════════
-   ARCHITECTURAL BACKGROUND SVG
-   Blueprint-style city elevation drawing
-   — buildings, crane, grid, annotations
-═══════════════════════════════════════ */
+
 const ArchBlueprintBg = () => (
   <svg
     viewBox="0 0 1200 500"
