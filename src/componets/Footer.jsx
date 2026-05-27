@@ -100,7 +100,6 @@ const IndustrialFooter = () => {
           </div>
         </div>
 
-        {/* Personnel & Identity Footer */}
         <div className="mt-10 mb-10 flex flex-col md:flex-row justify-between items-end gap-8">
           <div className="flex flex-col gap-2">
             <div className="flex gap-2">
