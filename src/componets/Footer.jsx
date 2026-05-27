@@ -85,7 +85,6 @@ const IndustrialFooter = () => {
               </a>
             </div>
 
-            {/* Inquiries Section */}
             <div className="col-span-2 md:col-span-1 space-y-6">
               <span className="text-[10px] font-mono font-black uppercase bg-black text-[#FFD700] px-2 py-1">Inquiries</span>
               <a href="mailto:ops@urbanrisebuilders.com" className="block text-lg font-black break-words hover:italic transition-all">
