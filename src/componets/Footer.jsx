@@ -52,7 +52,6 @@ const IndustrialFooter = () => {
           </div>
 
           <div className="lg:col-span-7 grid grid-cols-2 md:grid-cols-3 gap-8">
-            {/* Navigation Links */}
             <div className="space-y-6">
               <span className="text-[10px] font-mono font-black uppercase bg-black text-[#FFD700] px-2 py-1">Directives</span>
               <ul className="space-y-3">
