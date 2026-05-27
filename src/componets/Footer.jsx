@@ -124,7 +124,6 @@ const IndustrialFooter = () => {
         </div>
       </div>
 
-      {/* Industrial Scrolling Marquees */}
       <div className="bg-[#0a1128] py-4 mt-4 overflow-hidden flex select-none">
         <motion.div 
           animate={{ x: [0, -1000] }}
