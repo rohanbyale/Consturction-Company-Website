@@ -7,7 +7,6 @@ const IndustrialFooter = () => {
   return (
     <footer className="bg-[#DBDF00]  text-black pt-20 pb-0 px-0 font-sans relative overflow-hidden">
       
-      {/* Background Decorative Year */}
       <div className="absolute top-0 right-0 select-none pointer-events-none opacity-10">
         <h2 className="text-[25vw] font-black leading-none translate-x-1/4 -translate-y-1/4">
           2026
