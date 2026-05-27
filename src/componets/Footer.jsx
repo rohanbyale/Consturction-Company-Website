@@ -51,7 +51,6 @@ const IndustrialFooter = () => {
             </div>
           </div>
 
-          {/* Right Column: Navigation Grid */}
           <div className="lg:col-span-7 grid grid-cols-2 md:grid-cols-3 gap-8">
             {/* Navigation Links */}
             <div className="space-y-6">
