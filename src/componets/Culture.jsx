@@ -105,7 +105,7 @@ const CultureBento = () => {
                 </p>
               </div>
 
-              {/* Bottom Decorative Line - Hidden until hover */}
+        
               <motion.div 
                 className="absolute bottom-0 left-0 h-1 bg-current w-0 group-hover:w-full transition-all duration-700"
               />
