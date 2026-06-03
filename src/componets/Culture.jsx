@@ -113,7 +113,7 @@ const CultureBento = () => {
           ))}
         </div>
 
-        {/* BOTTOM STAT HUD */}
+   
       
 
       </div>
