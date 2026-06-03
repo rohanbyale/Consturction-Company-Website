@@ -64,7 +64,7 @@ const CultureBento = () => {
     <section className="bg-[#F9F9F7] py-32 px-6 md:px-12">
       <div className="max-w-[1400px] mx-auto">
         
-        {/* SECTION HEADER */}
+  
         <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
           <div className="max-w-xl">
            
@@ -78,7 +78,7 @@ const CultureBento = () => {
           </div>
         </div>
 
-        {/* INTERACTIVE GRID - MATCHING SCREENSHOT STYLE */}
+     
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 min-h-[400px]">
           {perks.map((perk) => (
             <motion.div
