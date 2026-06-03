@@ -95,7 +95,7 @@ const CultureBento = () => {
                 </span>
               </div>
 
-              {/* Title & Desc */}
+             
               <div className="mt-20">
                 <h3 className="text-4xl font-bold tracking-tight mb-6 leading-none">
                   {perk.title}
