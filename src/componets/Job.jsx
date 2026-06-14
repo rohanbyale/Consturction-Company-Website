@@ -104,7 +104,7 @@ const CareersPage = () => {
         </div>
       </nav>
 
-      {/* 3. OPENINGS GRID */}
+     
       <section className="max-w-7xl mx-auto px-6 py-12 md:py-20">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-[#1A1A1A]/5 border border-[#1A1A1A]/5">
           <AnimatePresence mode='popLayout'>
