@@ -232,7 +232,7 @@ const BlueprintValues = () => {
             </motion.div>
           ))}
 
-          {/* Image Node — inside grid, spanning last column */}
+
           <motion.div
             initial={{ opacity: 0, scale: 0.92 }}
             animate={inView ? { opacity: 1, scale: 1 } : {}}
