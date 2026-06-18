@@ -207,7 +207,7 @@ const BlueprintValues = () => {
                 </p>
               </div>
 
-              {/* Animated underline on hover */}
+  
               <motion.div
                 className="absolute bottom-0 left-0 h-[2px] bg-black/60"
                 initial={{ width: 0 }}
