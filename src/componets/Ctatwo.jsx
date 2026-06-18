@@ -7,7 +7,7 @@ const ContactShort = () => {
     <section className="bg-[#0A0A0A] py-16 px-6 font-sans overflow-hidden">
       <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         
-        {/* TEXT CONTENT */}
+   
         <div className="space-y-8 relative z-10">
           <motion.div 
             initial={{ opacity: 0, x: -20 }}
