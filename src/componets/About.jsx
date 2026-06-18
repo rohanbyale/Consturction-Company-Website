@@ -18,7 +18,6 @@ const xTranslate = useTransform(timelineProgress, [0, 1], ["30%", "-80%"]);
     { year: "2024", task: "Apex Era", desc: "500+ Mega-structures completed." },
     { year: "2026", task: "The Future", desc: "Digital Integration & Sustainability." },
   ];
-
   return (
    
     <div ref={containerRef} className="bg-[#F5F5F3] py-20 overflow-hidden">
