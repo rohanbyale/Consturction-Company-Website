@@ -1,9 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 
-// ─────────────────────────────────────────────────────────────
-// ABOUT SECTION — zero changes to original code
-// ─────────────────────────────────────────────────────────────
+
 const AboutSection = () => {
   const containerRef = useRef(null);
   const timelineRef  = useRef(null);
