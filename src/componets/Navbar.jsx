@@ -24,7 +24,7 @@ const WaabiNavbar = () => {
 
   return (
     <>
-      {/* BACKGROUND OVERLAY */}
+      {/* BACKGROUND OVERLY */}
       <AnimatePresence>
         {isOpen && (
           <motion.div 
