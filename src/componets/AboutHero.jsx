@@ -75,7 +75,7 @@ const AboutHero = () => {
               Identity_Ref
             </div>
 
-          
+    
             <div className="absolute inset-0 bg-black/5 pointer-events-none" />
           </motion.div>
         </div>
