@@ -6,7 +6,7 @@ const WaabiNavbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
 
-  // Close menu automatically when route changes
+  // Close menu automatically when route change
   useEffect(() => {
     setIsOpen(false);
   }, [location]);
