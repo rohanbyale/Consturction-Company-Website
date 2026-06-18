@@ -75,7 +75,7 @@ const AboutHero = () => {
               Identity_Ref
             </div>
 
-            {/* Optional Overlay to maintain text readability if video is too bright */}
+          
             <div className="absolute inset-0 bg-black/5 pointer-events-none" />
           </motion.div>
         </div>
