@@ -245,7 +245,7 @@ const BlueprintValues = () => {
               className="w-full h-full object-cover grayscale transition-transform duration-1000 group-hover:scale-110"
             />
             <div className="absolute inset-0 bg-[#E2E600]/40 mix-blend-multiply pointer-events-none" />
-            {/* Label overlay */}
+       
             <motion.div
               className="absolute bottom-4 left-4"
               initial={{ opacity: 0, x: -8 }}
