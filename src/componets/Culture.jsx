@@ -6,7 +6,7 @@ const perks = [
     id: "01.", 
     title: "Global Mobility", 
     desc: "Opportunities to lead project clusters across Dubai, Singapore, and Mumbai.",
-    bg: "#EEFC55", // Lime Green from image
+    bg: "#EEFC55",
     text: "#1A1A1A",
     pattern: "sun"
   },
