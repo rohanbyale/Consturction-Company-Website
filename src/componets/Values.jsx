@@ -221,7 +221,7 @@ const BlueprintValues = () => {
                 <div className="absolute bottom-0 right-0 h-full w-[1px] bg-black/60" />
               </div>
 
-              {/* Pulse ring on hover */}
+       
               <motion.div
                 className="absolute top-6 right-6 w-12 h-12 rounded-full border border-black/10 opacity-0 group-hover:opacity-100"
                 initial={{ scale: 0.5 }}
