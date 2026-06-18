@@ -57,7 +57,7 @@ const ArchBlueprintBg = () => (
     ))}
 
 
-    {/* ── BLDG 1: Short warehouse (far left) ── */}
+
     <rect x="20" y="310" width="110" height="110"
       fill="rgba(217,249,157,0.03)" stroke="rgba(217,249,157,0.2)" strokeWidth="1"/>
     {/* Floor lines */}
