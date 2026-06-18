@@ -41,7 +41,6 @@ const ArchBlueprintBg = () => (
       </filter>
     </defs>
 
-    {/* ── BASE GRID ── */}
     <rect width="1200" height="500" fill="url(#bpGridLg)"/>
 
     {/* ── SCAN LINE ── */}
