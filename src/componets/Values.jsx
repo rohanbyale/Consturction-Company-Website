@@ -205,7 +205,6 @@ const BlueprintValues = () => {
                   {item.desc}
                 </p>
               </div>
-
   
               <motion.div
                 className="absolute bottom-0 left-0 h-[2px] bg-black/60"
