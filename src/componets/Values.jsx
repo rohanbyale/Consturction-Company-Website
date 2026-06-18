@@ -156,7 +156,7 @@ const BlueprintValues = () => {
             </motion.div>
           </motion.div>
 
-          {/* Value Cards */}
+      
           {values.map((item, idx) => (
             <motion.div
               key={item.id}
