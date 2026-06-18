@@ -63,7 +63,7 @@ const xTranslate = useTransform(timelineProgress, [0, 1], ["30%", "-80%"]);
           </div>
         </motion.div>
 
-        {/* Massive Background Image Block: Adjusted heights for mobile/desktop */}
+   
         <motion.div 
           initial={{ clipPath: "inset(0 0 100% 0)" }}
           whileInView={{ clipPath: "inset(0 0 0% 0)" }}
