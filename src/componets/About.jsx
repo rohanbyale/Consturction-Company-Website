@@ -45,7 +45,6 @@ const xTranslate = useTransform(timelineProgress, [0, 1], ["30%", "-80%"]);
             <span className="italic text-outline">The Silent </span> <br />
             Giants.
           </h2>
-          
           <div className="bg-[#1A2222] text-[#E5E2DA] p-8 md:p-14 lg:ml-20 shadow-2xl pointer-events-auto w-full lg:max-w-lg">
             <p className="text-base md:text-lg font-medium leading-relaxed opacity-90">
               Founded on the principle of structural integrity, we have spent 16 years turning complex blueprints into India’s most iconic skylines. Our mission is the fusion of brutalist strength with artistic grace.
