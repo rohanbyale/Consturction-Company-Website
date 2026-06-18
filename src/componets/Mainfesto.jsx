@@ -63,7 +63,7 @@ const ArchBlueprintBg = () => (
     {/* Floor lines */}
     <line x1="20" y1="350" x2="130" y2="350" stroke="rgba(217,249,157,0.08)" strokeWidth="0.5"/>
     <line x1="20" y1="385" x2="130" y2="385" stroke="rgba(217,249,157,0.08)" strokeWidth="0.5"/>
-    {/* Windows */}
+
     {[0,1,2].map(col => [0,1].map(row => (
       <rect key={`b1-${col}-${row}`}
         x={30+col*30} y={320+row*35} width="18" height="22"
