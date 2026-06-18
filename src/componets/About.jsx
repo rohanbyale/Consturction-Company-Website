@@ -11,7 +11,6 @@ const AboutSection = () => {
   });
 
 const xTranslate = useTransform(timelineProgress, [0, 1], ["30%", "-80%"]);
-
   const timelineEvents = [
     { year: "2010", task: "Foundation Laid", desc: "Company started in Mumbai." },
     { year: "2015", task: "100 Milestones", desc: "Successfully hit 100 projects." },
