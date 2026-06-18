@@ -33,7 +33,7 @@ const AboutHero = () => {
               <span className="text-white" style={{ WebkitTextStroke: '0.1px #1a1a1a' }}>Builders.</span>
             </h1>
           </motion.div>
-          
+      
           <motion.div 
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
