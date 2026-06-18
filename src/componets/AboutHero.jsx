@@ -61,7 +61,7 @@ const AboutHero = () => {
               playsInline
               className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
             >
-              {/* Replace the src with your actual video link */}
+         
               <source 
                 src="/ii.mp4" 
                 type="video/mp4" 
