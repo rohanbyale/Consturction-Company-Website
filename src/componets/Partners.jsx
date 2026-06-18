@@ -97,7 +97,7 @@ const PartnerCard = ({ partner, index }) => {
               className="w-full h-full object-cover scale-105 group-hover:scale-100 transition-transform duration-1000 brightness-[0.7] group-hover:brightness-100"
             />
             
-            {/* Content Overlay */}
+
             <div className="absolute inset-0 p-8 flex flex-col justify-between text-white z-30">
               <div className="flex justify-between items-start">
                 <div className="bg-[#E2E600] px-2 py-0.5 text-black font-mono text-[9px] font-bold tracking-widest rounded-sm">
