@@ -56,7 +56,7 @@ const BlueprintValues = () => {
       className="bg-[#E2E600] rounded-b-2xl py-20 px-10 overflow-hidden text-[#1a1a1a] relative"
       style={{ minHeight: '75vh' }}
     >
-      {/* Animated SVG Grid Lines — connected corner to corner */}
+
       <svg
         className="absolute inset-0 w-full h-full pointer-events-none"
         xmlns="http://www.w3.org/2000/svg"
