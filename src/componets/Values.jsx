@@ -95,7 +95,6 @@ const BlueprintValues = () => {
         <div className="absolute top-0 -left-8 -right-8 h-[1px] bg-black/20" />
         <div className="absolute bottom-0 -left-8 -right-8 h-[1px] bg-black/20" />
 
-        {/* Corner cross marks — connected endpoints */}
         {[
           "top-0 left-0", "top-0 right-0",
           "bottom-0 left-0", "bottom-0 right-0"
