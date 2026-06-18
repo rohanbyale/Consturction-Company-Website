@@ -41,7 +41,7 @@ const PartnerCard = ({ partner, index }) => {
       whileInView={{ opacity: 1, scale: 1 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay: index * 0.08 }}
-      // Reduced height to 320px
+    
       className={`relative h-[320px] overflow-hidden group border-r border-b border-gray-100 cursor-default`}
     >
       <AnimatePresence mode="wait">
