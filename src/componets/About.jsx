@@ -20,7 +20,7 @@ const xTranslate = useTransform(timelineProgress, [0, 1], ["30%", "-80%"]);
   ];
 
   return (
-    // Reduced padding-y from 40 to 20 for tighter spacing
+   
     <div ref={containerRef} className="bg-[#F5F5F3] py-20 overflow-hidden">
 
       <div className="max-w-[1400px] mx-auto px-6 md:px-10 relative flex flex-col lg:block">
