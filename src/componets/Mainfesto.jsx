@@ -26,7 +26,7 @@ const ArchBlueprintBg = () => (
         .wire-sw  { animation: wireSwg  4s ease-in-out infinite; transform-origin:880px 30px; }
       `}</style>
 
-      {/* Blueprint grid pattern */}
+ 
       <pattern id="bpGrid" width="40" height="40" patternUnits="userSpaceOnUse">
         <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(217,249,157,0.06)" strokeWidth="0.5"/>
       </pattern>
