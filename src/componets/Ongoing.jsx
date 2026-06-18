@@ -45,7 +45,6 @@ const ProjectSection = ({ project, index }) => {
         </div>
       </div>
 
-      {/* 2. DATA SIDE: The Technical Spec Sheet */}
       <div className="w-full md:w-1/2 p-8 md:p-20 flex flex-col justify-center bg-[#F5F5F3]">
         <div className="max-w-md space-y-8">
           <div className="flex items-center gap-4">
