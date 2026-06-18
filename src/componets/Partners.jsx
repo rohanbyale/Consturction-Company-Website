@@ -90,7 +90,7 @@ const PartnerCard = ({ partner, index }) => {
             transition={{ duration: 0.3 }}
             className="absolute inset-0 z-20 bg-black"
           >
-            {/* Base image with brightness increase */}
+          
             <img
               src={partner.logo}
               alt={partner.name}
