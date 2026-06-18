@@ -85,7 +85,7 @@ const xTranslate = useTransform(timelineProgress, [0, 1], ["30%", "-80%"]);
         </div>
       </div>
 
-      {/* --- KINETIC TIMELINE SECTION: Tightened spacing --- */}
+ 
       <div ref={timelineRef} className="mt-20 md:mt-40 relative">
         <div className="absolute top-0 left-0 w-full h-[1px] bg-[#1A1A1A]/10 z-0" />
         
