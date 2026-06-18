@@ -89,7 +89,7 @@ const BlueprintValues = () => {
       </svg>
 
       <div className="max-w-7xl mx-auto relative">
-        {/* Connected outer overshoot lines */}
+      
         <div className="absolute -top-8 bottom-0 left-0 w-[1px] bg-black/20" />
         <div className="absolute -top-8 bottom-0 right-0 w-[1px] bg-black/20" />
         <div className="absolute top-0 -left-8 -right-8 h-[1px] bg-black/20" />
