@@ -24,8 +24,7 @@ const AboutSection = () => {
   return (
     // Reduced padding-y from 40 to 20 for tighter spacing
     <div ref={containerRef} className="bg-[#F5F5F3] py-20 overflow-hidden">
-      
-      {/* Container: Removed min-height, changed to relative flex for mobile stacking */}
+
       <div className="max-w-[1400px] mx-auto px-6 md:px-10 relative flex flex-col lg:block">
         
         {/* Floating Story Block: Changed from absolute to lg:absolute so it stacks on mobile */}
