@@ -29,7 +29,7 @@ const PremiumOfficeSection = () => {
   return (
     <section className="relative bg-[#F5F5F3] py-20 px-6 md:px-20 overflow-hidden font-sans">
       
-      {/* Background Grid */}
+
       <div className="absolute inset-0 pointer-events-none opacity-[0.03]" 
            style={{ backgroundImage: 'radial-gradient(#000 1px, transparent 1px)', backgroundSize: '30px 30px' }} />
       
