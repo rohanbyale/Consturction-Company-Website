@@ -69,7 +69,7 @@ const AboutHero = () => {
               Your browser does not support the video tag.
             </video>
             
-            {/* MiiaT */}
+            {/* Miia*/}
             <div className="absolute top-0 right-0 bg-[#1a1a1a] text-white px-3 py-1 font-mono text-[8px] uppercase tracking-widest z-20">
               Identity_Ref
             </div>
