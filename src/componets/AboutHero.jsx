@@ -74,7 +74,6 @@ const AboutHero = () => {
             <div className="absolute top-0 right-0 bg-[#1a1a1a] text-white px-3 py-1 font-mono text-[8px] uppercase tracking-widest z-20">
               Identity_Ref
             </div>
-    
             <div className="absolute inset-0 bg-black/5 pointer-events-none" />
           </motion.div>
         </div>
