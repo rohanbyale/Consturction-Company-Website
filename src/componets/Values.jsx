@@ -259,7 +259,6 @@ const BlueprintValues = () => {
           </motion.div>
         </div>
 
-        {/* Bottom axis label */}
         <motion.div
           className="mt-4 flex justify-between items-center"
           initial={{ opacity: 0 }}
