@@ -117,7 +117,7 @@ const BlueprintValues = () => {
           className="grid grid-cols-1 md:grid-cols-4 md:grid-rows-3 border border-black/20"
           style={{ minHeight: '600px' }}
         >
-          {/* Header Cell */}
+    
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
