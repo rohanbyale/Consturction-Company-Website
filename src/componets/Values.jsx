@@ -124,7 +124,7 @@ const BlueprintValues = () => {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="md:col-span-1 md:row-span-1 border-b border-r border-black/20 p-8 flex flex-col justify-end relative overflow-hidden"
           >
-            {/* Animated scan line */}
+       
             <motion.div
               className="absolute left-0 right-0 h-[1px] bg-black/10"
               initial={{ top: "0%" }}
