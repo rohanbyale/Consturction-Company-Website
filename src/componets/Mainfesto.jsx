@@ -47,7 +47,7 @@ const ArchBlueprintBg = () => (
     <line className="scan-ln" x1="0" y1="0" x2="1200" y2="0"
       stroke="rgba(217,249,157,0.12)" strokeWidth="1.5"/>
 
-    {/* ── GROUND LINE ── */}
+
     <line x1="0" y1="420" x2="1200" y2="420"
       stroke="rgba(217,249,157,0.25)" strokeWidth="1.2"/>
     {/* Ground hash marks */}
