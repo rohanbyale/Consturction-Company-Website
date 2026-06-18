@@ -79,7 +79,7 @@ const xTranslate = useTransform(timelineProgress, [0, 1], ["30%", "-80%"]);
           <div className="absolute inset-0 border-[10px] md:border-[20px] border-[#E5E2DA]/50 pointer-events-none" />
         </motion.div>
 
-        {/* Large Ghost Text: hidden on small mobile to prevent layout shift */}
+     
         <div className="hidden md:block absolute -bottom-10 lg:-bottom-20 right-10 lg:right-20 text-[12vw] font-black text-[#1A1A1A]/5 pointer-events-none select-none uppercase">
           Legacy
         </div>
