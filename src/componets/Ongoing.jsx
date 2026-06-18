@@ -128,7 +128,7 @@ const OngoingProjects = () => {
 
   return (
     <section className="relative bg-[#F5F5F3]">
-      {/* GLOBAL HUD TICKER */}
+  
       <div className="sticky top-0 z-[100] bg-[#0A1128] py-4 overflow-hidden flex whitespace-nowrap border-b border-[#eefc55]/20">
         {[...Array(4)].map((_, i) => (
           <motion.div 
