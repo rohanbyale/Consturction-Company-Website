@@ -48,7 +48,7 @@ const AboutHero = () => {
           </motion.div>
         </div>
 
-     
+    
         <div className="lg:col-span-5 relative group">
           <motion.div 
             style={{ y }}
