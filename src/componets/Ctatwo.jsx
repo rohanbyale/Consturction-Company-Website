@@ -60,8 +60,7 @@ const ContactShort = () => {
             {/* Gradient Overlay */}
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
           </div>
-          
-          {/* Floating Detail */}
+    
           <div className="absolute -bottom-6 -right-6 bg-[#1A1A1A] border border-white/10 p-5 rounded-2xl shadow-xl hidden lg:block">
             <p className="text-[#EEFC55] font-black text-2xl tracking-tighter italic">100%</p>
             <p className="text-[9px] text-white/50 uppercase tracking-widest font-bold">Safety Record</p>
