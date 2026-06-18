@@ -112,7 +112,7 @@ const BlueprintValues = () => {
           </motion.div>
         ))}
 
-        {/* Main Grid */}
+   
         <div
           className="grid grid-cols-1 md:grid-cols-4 md:grid-rows-3 border border-black/20"
           style={{ minHeight: '600px' }}
