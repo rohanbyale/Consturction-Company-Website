@@ -23,8 +23,7 @@ const ProjectSection = ({ project, index }) => {
           alt={project.name}
           className="w-full h-full object-cover transition-all duration-700 group-hover:grayscale-0 group-hover:scale-105"
         />
-        
-        {/* HUD UI Elements */}
+
         <div className="absolute inset-0 p-6 md:p-12 flex flex-col justify-between pointer-events-none">
           <div className="flex justify-between items-start">
             <div className="bg-[#eefc55] text-black px-4 py-1 text-[10px] font-bold uppercase tracking-tighter">
