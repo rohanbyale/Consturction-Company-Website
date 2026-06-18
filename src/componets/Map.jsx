@@ -124,7 +124,7 @@ const PremiumOfficeSection = () => {
           ))}
         </div>
 
-      
+    
         <div className="mt-20 overflow-hidden whitespace-nowrap border-y border-black/5 py-4">
           <motion.div 
             animate={{ x: [0, -800] }}
