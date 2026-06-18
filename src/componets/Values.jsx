@@ -62,7 +62,7 @@ const BlueprintValues = () => {
         xmlns="http://www.w3.org/2000/svg"
         preserveAspectRatio="none"
       >
-        {/* Outer frame */}
+     
         <motion.rect
           x="32" y="32"
           width="calc(100% - 64px)" height="calc(100% - 64px)"
