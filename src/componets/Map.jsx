@@ -56,7 +56,7 @@ const PremiumOfficeSection = () => {
           </div>
         </div>
 
-        {/* Office Cards - Reduced height to 450px for better viewport fit */}
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {offices.map((office, index) => (
             <motion.div
