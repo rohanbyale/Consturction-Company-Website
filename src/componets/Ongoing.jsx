@@ -5,6 +5,7 @@ import { ArrowUpRight, Plus, Zap } from 'lucide-react';
 const ProjectSection = ({ project, index }) => {
   // Sticky 'top' calculation: each card sticks at a slightly different offset if desired,
   // but usually, sticking at 'top-0' creates the cleanest "cover-up" effect.
+
   return (
     <motion.div 
       className="sticky top-0 w-full min-h-screen flex flex-col md:flex-row overflow-hidden bg-white border-b border-black/10"
