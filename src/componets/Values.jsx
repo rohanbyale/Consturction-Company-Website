@@ -170,7 +170,7 @@ const BlueprintValues = () => {
                 borderBottom: [0, 2, 3].includes(idx) ? '1px solid rgba(0,0,0,0.2)' : undefined,
               }}
             >
-              {/* ID + node dot */}
+           
               <div className="flex justify-between items-start mb-8 relative z-10">
                 <motion.span
                   className="text-lg font-bold font-mono tracking-tighter"
