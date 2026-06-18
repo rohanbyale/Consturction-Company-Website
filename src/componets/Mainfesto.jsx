@@ -94,7 +94,7 @@ const ArchBlueprintBg = () => (
       <line key={i} x1="260" y1={y} x2="380" y2={y}
         stroke="rgba(217,249,157,0.07)" strokeWidth="0.5"/>
     ))}
-    {/* Windows 4×11 */}
+
     {[0,1,2,3].map(col => [0,1,2,3,4,5,6,7,8,9].map(row => (
       <rect key={`b3-${col}-${row}`}
         x={268+col*27} y={88+row*30} width="18" height="20"
