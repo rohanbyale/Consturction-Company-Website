@@ -146,7 +146,7 @@ const OngoingProjects = () => {
         ))}
       </div>
 
-      {/* STICKY CONTAINER */}
+
       <div className="relative">
         {projects.map((proj, i) => (
           <ProjectSection key={i} project={proj} index={i} />
