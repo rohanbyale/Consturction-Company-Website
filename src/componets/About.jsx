@@ -113,7 +113,6 @@ const xTranslate = useTransform(timelineProgress, [0, 1], ["30%", "-80%"]);
           ))}
         </motion.div>
       </div>
-
       <style jsx>{`
         .text-outline {
           color: transparent;
