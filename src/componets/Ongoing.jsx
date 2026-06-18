@@ -13,7 +13,7 @@ const ProjectSection = ({ project, index }) => {
       transition={{ duration: 0.5 }}
       viewport={{ margin: "-10% 0px -10% 0px" }}
     >
-      {/* 1. VISUAL SIDE: High-Contrast Brutalist Frame */}
+   
       <div className="relative w-full md:w-1/2 h-[50vh] md:h-screen bg-black group overflow-hidden">
         <motion.img 
           initial={{ scale: 1.2 }}
