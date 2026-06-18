@@ -10,7 +10,7 @@ const AboutSection = () => {
     offset: ["start end", "end start"]
   });
 
-  // Animation logic remains identical
+
   const xTranslate = useTransform(timelineProgress, [0, 1], ["30%", "-80%"]);
 
   const timelineEvents = [
