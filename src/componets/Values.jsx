@@ -192,7 +192,6 @@ const BlueprintValues = () => {
                 </motion.div>
               </div>
 
-              {/* Text content */}
               <div className="max-w-[240px] relative z-10">
                 <motion.h3
                   style={{ fontFamily: "'Bebas Neue', sans-serif" }}
