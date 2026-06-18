@@ -6,7 +6,7 @@ const WaabiNavbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
 
-  // Close menu automatically when 
+  // Close menu automatically whe
   useEffect(() => {
     setIsOpen(false);
   }, [location]);
