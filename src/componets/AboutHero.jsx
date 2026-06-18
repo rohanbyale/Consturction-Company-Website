@@ -7,7 +7,6 @@ const AboutHero = () => {
 
   return (
     <section className="relative bg-[#F9F9F7] flex flex-col justify-center overflow-hidden px-6 md:px-12 py-20">
-      
       <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-8 items-center relative z-10">
 
         <div className="lg:col-span-7">
