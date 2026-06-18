@@ -115,7 +115,7 @@ const WaabiNavbar = () => {
                   ))}
                 </nav>
 
-                {/* Optional Footer inside menu */}
+                {/* Optional Footer inside meu */}
                 <div className="mt-10 pt-6 border-t border-gray-50 flex justify-between items-center">
                    <span className="text-[9px] font-mono text-gray-300">© 2026 URB</span>
                    <span className="text-[9px] font-mono text-gray-300 uppercase tracking-widest">Mumbai_Pune</span>
