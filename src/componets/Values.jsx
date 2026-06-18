@@ -73,7 +73,7 @@ const BlueprintValues = () => {
           animate={inView ? { pathLength: 1, opacity: 1 } : {}}
           transition={{ duration: 1.5, ease: "easeInOut" }}
         />
-        {/* Overshoot corner markers */}
+   
         {[
           [0, 0], ['100%', 0], [0, '100%'], ['100%', '100%']
         ].map(([cx, cy], i) => (
