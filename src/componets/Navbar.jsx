@@ -69,7 +69,7 @@ const WaabiNavbar = () => {
           </button>
         </motion.div>
 
-        {/* THE TRANSPARENT GAP AND DROPDOWN */}
+        {/* THE TRANSPARENT GAP AND DROPDWN */}
         <AnimatePresence>
           {isOpen && (
             <motion.div 
