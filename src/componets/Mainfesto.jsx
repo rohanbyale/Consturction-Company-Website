@@ -70,7 +70,7 @@ const ArchBlueprintBg = () => (
         fill="rgba(217,249,157,0.05)" stroke="rgba(217,249,157,0.18)" strokeWidth="0.6"/>
     )))}
 
-    {/* ── BLDG 2: Medium tower ── */}
+
     <rect x="145" y="220" width="90" height="200"
       fill="rgba(217,249,157,0.03)" stroke="rgba(217,249,157,0.22)" strokeWidth="1"/>
     {[250,280,310,340,370,395].map((y,i) => (
