@@ -10,8 +10,7 @@ const AboutSection = () => {
     offset: ["start end", "end start"]
   });
 
-
-  const xTranslate = useTransform(timelineProgress, [0, 1], ["30%", "-80%"]);
+const xTranslate = useTransform(timelineProgress, [0, 1], ["30%", "-80%"]);
 
   const timelineEvents = [
     { year: "2010", task: "Foundation Laid", desc: "Company started in Mumbai." },
