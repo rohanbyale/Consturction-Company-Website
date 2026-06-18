@@ -43,7 +43,7 @@ const ArchBlueprintBg = () => (
 
     <rect width="1200" height="500" fill="url(#bpGridLg)"/>
 
-    {/* ── SCAN LINE ── */}
+  
     <line className="scan-ln" x1="0" y1="0" x2="1200" y2="0"
       stroke="rgba(217,249,157,0.12)" strokeWidth="1.5"/>
 
