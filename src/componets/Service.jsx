@@ -144,7 +144,7 @@ const ServiceSection = () => {
                 Constructing <br />
                 The Future.
               </h2>
-              {/* Fill Layer */}
+         
               <motion.h2 
                 style={{ fontFamily: "'Bebas Neue',sans-serif",  clipPath: `inset(0 ${useTransform(fillWidth, w => 100 - parseFloat(w))}% 0 0)` }}
                 className="absolute inset-0 text-4xl sm:text-5xl md:text-7xl font-bold uppercase tracking-wide text-[#E5E2DA] select-none"
