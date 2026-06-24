@@ -48,7 +48,7 @@ const Testimonials = () => {
          
         </div>
 
-        {/* Testimonial Grid - 2 columns on mobile, 4 on desktop */}
+     
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-6">
           {testimonials.map((item, index) => (
             <motion.div
