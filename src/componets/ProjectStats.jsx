@@ -37,7 +37,7 @@ const ProjectStats = () => {
         
         <div className="flex flex-col lg:flex-row gap-0 border border-white/10 bg-white/5 backdrop-blur-sm">
           
-          {/* 01. THE MASSIVE YELLOW ANCHOR (The "Hero" Stat) */}
+         
           <motion.div 
             initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
