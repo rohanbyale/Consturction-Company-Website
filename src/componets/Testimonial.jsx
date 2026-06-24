@@ -59,7 +59,7 @@ const Testimonials = () => {
               transition={{ delay: index * 0.1 }}
               className="group bg-white border border-gray-100 p-5 md:p-8 flex flex-col justify-between hover:border-[#D4AF37] transition-all duration-500 relative"
             >
-              {/* Quote Icon SVG - Gold Accent */}
+         
               <div className="absolute top-4 right-4 opacity-5 group-hover:opacity-20 transition-opacity">
                 <svg width="40" height="40" viewBox="0 0 24 24" fill="#D4AF37">
                   <path d="M14.017 21L14.017 18C14.017 16.8954 14.9124 16 16.017 16H19.017C19.5693 16 20.017 15.5523 20.017 15V9C20.017 8.44772 19.5693 8 19.017 8H15.017C14.4647 8 14.017 8.44772 14.017 9V12M3.017 21L3.017 18C3.017 16.8954 3.91243 16 5.017 16H8.017C8.56928 16 9.017 15.5523 9.017 15V9C9.017 8.44772 8.56928 8 8.017 8H4.017C3.46472 8 3.017 8.44772 3.017 9V12" stroke="#D4AF37" strokeWidth="2" fill="none"/>
