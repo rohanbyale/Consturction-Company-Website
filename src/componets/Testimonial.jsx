@@ -67,7 +67,7 @@ const Testimonials = () => {
               </div>
 
               <div>
-                {/* Stars */}
+              
                 <div className="flex gap-1 mb-4">
                   {[...Array(item.rating)].map((_, i) => (
                     <div key={i} className="w-2 h-2 rounded-full bg-[#D4AF37]" />
