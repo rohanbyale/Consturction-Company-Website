@@ -86,7 +86,6 @@ const ProjectStats = () => {
               <p className="text-gray-500 text-xs leading-relaxed">Next-gen housing protocols focused on sustainability and modular growth.</p>
             </div>
 
-            {/* Stat Item: Cities */}
             <div className="md:border-r border-white/10 p-12 hover:bg-white/5 transition-colors group">
               <span className="text-[#eefc55] font-mono text-xs tracking-widest uppercase">MTRX-04</span>
               <div className="text-6xl font-black my-6 flex items-baseline gap-2">
