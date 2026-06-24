@@ -75,7 +75,7 @@ const ProjectStats = () => {
               <p className="text-gray-500 text-xs leading-relaxed">High-density engineering for urban infrastructure and corporate cores.</p>
             </div>
 
-            {/* Stat Item: Residential */}
+          
             <div className="border-b border-white/10 p-12 hover:bg-white/5 transition-colors group">
               <span className="text-[#eefc55] font-mono text-xs tracking-widest uppercase">MTRX-03</span>
               <div className="text-6xl font-black my-6 flex items-baseline gap-2">
