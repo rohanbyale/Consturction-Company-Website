@@ -37,7 +37,7 @@ const Testimonials = () => {
     <section className="bg-[#fafafa] py-16 px-4 md:px-6 lg:px-20 font-sans overflow-hidden">
       <div className="max-w-7xl mx-auto">
         
-        {/* Header - Matching your 'Why Choose Us' style */}
+    
         <div className="mb-12">
           <header className="flex items-center gap-3 mb-3">
           
