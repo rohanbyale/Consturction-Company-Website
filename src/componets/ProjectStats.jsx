@@ -107,7 +107,7 @@ const ProjectStats = () => {
                 </div>
                 <span className="text-[10px] font-black uppercase tracking-[0.4em]">View Registry</span>
               </motion.div>
-              {/* Decorative background text */}
+            
               <span className="absolute bottom-[-10%] right-[-10%] text-6xl font-black opacity-5 select-none rotate-12">DATA</span>
             </div>
 
